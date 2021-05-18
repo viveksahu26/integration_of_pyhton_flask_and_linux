@@ -1,0 +1,33 @@
+input[type=text] {
+    width: 40%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 5px solid #ffef0b; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 30px; /* Add a top margin */
+    margin-bottom: 8px; /* Bottom margin */
+    margin-left: 300px;
+    margin-right: 10px;
+    font-size:30px;
+    color:red;
+    font-family:monospace;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #0e0a0a;
+    color: rgb(255, 230, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 500px;
+    font-size:25px;
+    font-family:cursive
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #f8241c;
+  }
